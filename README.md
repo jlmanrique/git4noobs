@@ -16,7 +16,7 @@ Donde:
 
 ##Paso 2
 
-Con el repositorio creado procedemos a inicializar el repositorio y asociarlo a github
+Con el repositorio creado procedemos a inicializar el repositorio y asociarlo a github:
 
 ```sh
 mkdir git4noobs
@@ -27,10 +27,10 @@ git remote add origin https://github.com/{{usuario}}/git4noobs.git
 
 ##Paso 3
 
-Usamos el comando log para ver los cambios en el repositorio
+Usamos el comando log para ver los cambios en el repositorio:
 
 ```sh
 git log
 ```
 
-Para mas detalles con el comando git log se puede revisar la siguiente [documentacion](http://git-scm.com/book/en/Git-Basics-Viewing-the-Commit-History)
+Para mas detalles con el comando git log se puede revisar la siguiente [documentación](http://git-scm.com/book/en/Git-Basics-Viewing-the-Commit-History).
