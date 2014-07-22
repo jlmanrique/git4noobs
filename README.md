@@ -32,3 +32,5 @@ Usamos el comando log para ver los cambios en el repositorio
 ```sh
 git log
 ```
+
+Para mas detalles con el comando git log se puede revisar la siguiente [documentacion](http://git-scm.com/book/en/Git-Basics-Viewing-the-Commit-History)
