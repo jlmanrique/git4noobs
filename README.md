@@ -5,7 +5,7 @@ Git4Noobs
 
 Crear el repositorio desde la linea de comandos:
 
-```
+```sh
 curl -u '{{usuario}}' https://api.github.com/user/repos -d '{"name":"{{repositorio}}"}'
 ```
 
@@ -17,6 +17,6 @@ Donde:
 
 Usamos el comando log para ver los cambios en el repositorio
 
-```
+```sh
 git log
 ```
