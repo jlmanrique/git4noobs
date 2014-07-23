@@ -34,3 +34,38 @@ git log
 ```
 
 Para mas detalles con el comando git log se puede revisar la siguiente [documentación](http://git-scm.com/book/en/Git-Basics-Viewing-the-Commit-History).
+
+##Paso 4
+
+Creamos un archivo denominado main.js, para eso digitamos el siguiente comando:
+
+```sh
+vim main.js
+```
+
+Una vez dentro del archivo agregamos el siguiente contenido:
+
+```js
+(function(){
+	
+})();
+```
+
+Para ver el cambio que se efectuó en el repositorio creado ejecutamos el siguiente comando:
+
+```sh
+git status
+```
+
+El resultado debe ser este:
+
+```sh
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	main.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
